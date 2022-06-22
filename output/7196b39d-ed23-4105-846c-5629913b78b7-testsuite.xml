@@ -1,0 +1,19 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655903170202' stop='1655903170202'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1655903170202' status='pending' stop='1655903170202'>
+            <name>show password button</name>
+            <title>show password button</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Skipped due to failure in 'before' hook</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

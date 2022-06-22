@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655903170076' stop='1655903170171'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1655903170080' status='failed' stop='1655903170150'>
+            <name>the field is blank and Submit button is clicked.</name>
+            <title>the field is blank and Submit button is clicked.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655903170130' status='failed' stop='1655903170149'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655903170132' status='failed' stop='1655903170133'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read properties of undefined (reading 'url')</message>
+                <stack-trace>TypeError: Cannot read properties of undefined (reading 'url')
+                    at WebDriver.amOnPage (C:\Users\sinan\Desktop\linkedin-login-automation\node_modules\codeceptjs\lib\helper\WebDriver.js:901:25)
+                    at Step.run (C:\Users\sinan\Desktop\linkedin-login-automation\node_modules\codeceptjs\lib\step.js:122:47)
+                    at C:\Users\sinan\Desktop\linkedin-login-automation\node_modules\codeceptjs\lib\actor.js:134:23
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

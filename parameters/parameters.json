@@ -1,0 +1,16 @@
+{
+    "url" : "www.linkedin.com",
+    "username" : "#username",
+    "password" : "#password",
+    "loginButtonHomePage" : "a[class='nav__button-secondary btn-md btn-secondary-emphasis']",
+    "loginButtonLoginPage" : "button[class='btn__primary--large from__button--floating']",
+    "errorForUsername" : "#error-for-username",
+    "homePage" : "div[class='authentication-outlet']",
+    "errorForPassword" : "#error-for-password",
+    "forgotPasswordButton" : "a[class='btn__tertiary--medium forgot-password']",
+    "passwordResetPage" : "#card-container",
+    "showPasswordButton" : "#password-visibility-toggle",
+    "hiddenPassword" : "//*[contains(text(),'gizle')]"
+
+
+}

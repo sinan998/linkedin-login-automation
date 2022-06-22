@@ -1,0 +1,566 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1655902433385' stop='1655902494142'>
+    <name>login:</name>
+    <title>login:</title>
+    <test-cases>
+        <test-case start='1655902433390' status='passed' stop='1655902440827'>
+            <name>the field is blank and Submit button is clicked.</name>
+            <title>the field is blank and Submit button is clicked.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902437083' status='passed' stop='1655902440218'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902437084' status='passed' stop='1655902438257'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902438258' status='passed' stop='1655902438327'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902438327' status='passed' stop='1655902440153'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440153' status='passed' stop='1655902440195'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440195' status='passed' stop='1655902440215'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902440218' status='passed' stop='1655902440717'>
+                    <name>loginPagePage: fillForm , </name>
+                    <title>loginPagePage: fillForm , </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902440218' status='passed' stop='1655902440304'>
+                            <name>I fill field "#username", </name>
+                            <title>I fill field "#username", </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440304' status='passed' stop='1655902440426'>
+                            <name>I fill field "#password", </name>
+                            <title>I fill field "#password", </title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440426' status='passed' stop='1655902440441'>
+                            <name>I wait for element "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I wait for element "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440441' status='passed' stop='1655902440717'>
+                            <name>I click "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I click "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902440717' status='passed' stop='1655902440827'>
+                    <name>loginPagePage: errorForUsername </name>
+                    <title>loginPagePage: errorForUsername </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902440717' status='passed' stop='1655902440753'>
+                            <name>I wait for element "#error-for-username"</name>
+                            <title>I wait for element "#error-for-username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902440753' status='passed' stop='1655902440827'>
+                            <name>I see element "#error-for-username"</name>
+                            <title>I see element "#error-for-username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902441121' status='passed' stop='1655902450604'>
+            <name>login with a valid username and invalid password.</name>
+            <title>login with a valid username and invalid password.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902447084' status='passed' stop='1655902450000'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902447084' status='passed' stop='1655902448142'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902448142' status='passed' stop='1655902448198'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902448199' status='passed' stop='1655902449935'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902449935' status='passed' stop='1655902449978'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902449978' status='passed' stop='1655902449998'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902450000' status='passed' stop='1655902450475'>
+                    <name>loginPagePage: fillForm "yicov24245@syswift.com", "ddd"</name>
+                    <title>loginPagePage: fillForm "yicov24245@syswift.com", "ddd"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902450000' status='passed' stop='1655902450110'>
+                            <name>I fill field "#username", "yicov24245@syswift.com"</name>
+                            <title>I fill field "#username", "yicov24245@syswift.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902450110' status='passed' stop='1655902450240'>
+                            <name>I fill field "#password", "ddd"</name>
+                            <title>I fill field "#password", "ddd"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902450240' status='passed' stop='1655902450257'>
+                            <name>I wait for element "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I wait for element "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902450257' status='passed' stop='1655902450475'>
+                            <name>I click "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I click "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902450475' status='passed' stop='1655902450604'>
+                    <name>loginPagePage: errorForPassword </name>
+                    <title>loginPagePage: errorForPassword </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902450475' status='passed' stop='1655902450501'>
+                            <name>I wait for element "#error-for-password"</name>
+                            <title>I wait for element "#error-for-password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902450501' status='passed' stop='1655902450604'>
+                            <name>I see element "#error-for-password"</name>
+                            <title>I see element "#error-for-password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902450910' status='passed' stop='1655902455209'>
+            <name>login with a valid inusername and valid password.</name>
+            <title>login with a valid inusername and valid password.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902452053' status='passed' stop='1655902454646'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902452053' status='passed' stop='1655902452982'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902452982' status='passed' stop='1655902453001'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902453001' status='passed' stop='1655902454585'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902454585' status='passed' stop='1655902454625'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902454625' status='passed' stop='1655902454645'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902454646' status='passed' stop='1655902455099'>
+                    <name>loginPagePage: fillForm "asdsadsa", "Asdf.123"</name>
+                    <title>loginPagePage: fillForm "asdsadsa", "Asdf.123"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902454646' status='passed' stop='1655902454740'>
+                            <name>I fill field "#username", "asdsadsa"</name>
+                            <title>I fill field "#username", "asdsadsa"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902454740' status='passed' stop='1655902454838'>
+                            <name>I fill field "#password", "Asdf.123"</name>
+                            <title>I fill field "#password", "Asdf.123"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902454838' status='passed' stop='1655902454856'>
+                            <name>I wait for element "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I wait for element "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902454856' status='passed' stop='1655902455099'>
+                            <name>I click "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I click "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902455099' status='passed' stop='1655902455209'>
+                    <name>loginPagePage: errorForUsername </name>
+                    <title>loginPagePage: errorForUsername </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902455099' status='passed' stop='1655902455151'>
+                            <name>I wait for element "#error-for-username"</name>
+                            <title>I wait for element "#error-for-username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902455151' status='passed' stop='1655902455209'>
+                            <name>I see element "#error-for-username"</name>
+                            <title>I see element "#error-for-username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902455513' status='passed' stop='1655902465832'>
+            <name>login with a valid username and valid password.</name>
+            <title>login with a valid username and valid password.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902457022' status='passed' stop='1655902459702'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902457022' status='passed' stop='1655902458042'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902458043' status='passed' stop='1655902458076'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902458076' status='passed' stop='1655902459644'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902459644' status='passed' stop='1655902459684'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902459684' status='passed' stop='1655902459700'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902459702' status='passed' stop='1655902465789'>
+                    <name>loginPagePage: fillForm "yicov24245@syswift.com", "Asdf.123"</name>
+                    <title>loginPagePage: fillForm "yicov24245@syswift.com", "Asdf.123"</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902459702' status='passed' stop='1655902459820'>
+                            <name>I fill field "#username", "yicov24245@syswift.com"</name>
+                            <title>I fill field "#username", "yicov24245@syswift.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902459821' status='passed' stop='1655902459928'>
+                            <name>I fill field "#password", "Asdf.123"</name>
+                            <title>I fill field "#password", "Asdf.123"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902459928' status='passed' stop='1655902459962'>
+                            <name>I wait for element "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I wait for element "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902459962' status='passed' stop='1655902465789'>
+                            <name>I click "button[class='btn__primary--large from__button--floating']"</name>
+                            <title>I click "button[class='btn__primary--large from__button--floating']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902465789' status='passed' stop='1655902465806'>
+                    <name>I wait for element "div[class='authentication-outlet']"</name>
+                    <title>I wait for element "div[class='authentication-outlet']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902465806' status='passed' stop='1655902465832'>
+                    <name>I see element "div[class='authentication-outlet']"</name>
+                    <title>I see element "div[class='authentication-outlet']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902466027' status='passed' stop='1655902475682'>
+            <name>‘Forgot Password’ functionality.</name>
+            <title>‘Forgot Password’ functionality.</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902472149' status='passed' stop='1655902474927'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902472149' status='passed' stop='1655902473209'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902473209' status='passed' stop='1655902473229'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902473229' status='passed' stop='1655902474867'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902474867' status='passed' stop='1655902474909'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902474909' status='passed' stop='1655902474925'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902474927' status='passed' stop='1655902474944'>
+                    <name>I wait for element "a[class='btn__tertiary--medium forgot-password']"</name>
+                    <title>I wait for element "a[class='btn__tertiary--medium forgot-password']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902474944' status='passed' stop='1655902475627'>
+                    <name>I click "a[class='btn__tertiary--medium forgot-password']"</name>
+                    <title>I click "a[class='btn__tertiary--medium forgot-password']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902475627' status='passed' stop='1655902475655'>
+                    <name>I wait for element "#card-container"</name>
+                    <title>I wait for element "#card-container"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902475655' status='passed' stop='1655902475682'>
+                    <name>I see element "#card-container"</name>
+                    <title>I see element "#card-container"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902475975' status='passed' stop='1655902489820'>
+            <name>use Enter key for login</name>
+            <title>use Enter key for login</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902482095' status='passed' stop='1655902484885'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902482095' status='passed' stop='1655902483182'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902483182' status='passed' stop='1655902483201'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902483201' status='passed' stop='1655902484826'>
+                            <name>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I click "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902484826' status='passed' stop='1655902484866'>
+                            <name>I wait for element "#username"</name>
+                            <title>I wait for element "#username"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902484867' status='passed' stop='1655902484883'>
+                            <name>I wait for element "#password"</name>
+                            <title>I wait for element "#password"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1655902484885' status='passed' stop='1655902484995'>
+                    <name>I fill field "#username", "yicov24245@syswift.com"</name>
+                    <title>I fill field "#username", "yicov24245@syswift.com"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902484995' status='passed' stop='1655902485097'>
+                    <name>I fill field "#password", "Asdf.123"</name>
+                    <title>I fill field "#password", "Asdf.123"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902485097' status='passed' stop='1655902489778'>
+                    <name>I press key ["Enter"]</name>
+                    <title>I press key ["Enter"]</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902489778' status='passed' stop='1655902489797'>
+                    <name>I wait for element "div[class='authentication-outlet']"</name>
+                    <title>I wait for element "div[class='authentication-outlet']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1655902489797' status='passed' stop='1655902489820'>
+                    <name>I see element "div[class='authentication-outlet']"</name>
+                    <title>I see element "div[class='authentication-outlet']"</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1655902490016' status='failed' stop='1655902493878'>
+            <name>show password button</name>
+            <title>show password button</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1655902492153' status='failed' stop='1655902493878'>
+                    <name>I: goLoginPage </name>
+                    <title>I: goLoginPage </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1655902492153' status='passed' stop='1655902492862'>
+                            <name>I am on page "www.linkedin.com"</name>
+                            <title>I am on page "www.linkedin.com"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1655902492862' status='failed' stop='1655902493878'>
+                            <name>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</name>
+                            <title>I wait for element "a[class='nav__button-secondary btn-md btn-secondary-emphasis']"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Last Seen Screenshot' source='06fb4a9c-5238-46fd-93e6-affaac32ee3a-attachment.png' type='image/png' size='20794'/>
+            </attachments>
+            <failure>
+                <message>element (a[class='nav__button-secondary btn-md btn-secondary-emphasis']) still not present on page after 1 sec</message>
+                <stack-trace>Error: element (a[class='nav__button-secondary btn-md btn-secondary-emphasis']) still not present on page after 1 sec
+                    at C:\Users\sinan\Desktop\linkedin-login-automation\node_modules\webdriverio\build\commands\browser\waitUntil.js:22:23
+                    at async Browser.wrapCommandFn (C:\Users\sinan\Desktop\linkedin-login-automation\node_modules\@wdio\utils\build\shim.js:63:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
